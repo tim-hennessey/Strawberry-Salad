@@ -1,0 +1,149 @@
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #555;
+}
+
+#banner {
+    background: #000;
+    position: absolute;
+    overflow: hidden;
+    width: $banner-width;
+    height: $banner-height;
+    left: 50%;
+    top: 50%;
+    margin-left: -$banner-width / 2;
+    margin-top: -$banner-height / 2;
+    opacity:0;
+
+    //#guide {
+    //    width: $banner-width;
+    //    height: $banner-height;
+    //    top: 0px;
+    //    left: 0px;
+    //    opacity:0;
+    //    position: absolute;
+    //}
+
+    #txt1 {
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+
+    #txt2 {
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+
+    #logo {
+        top: 0;
+        right: 0;
+        opacity:0;
+        position: absolute;
+    }
+
+    #resolve_bg {
+        top:  90px;
+        left: 0;
+        position: absolute;
+        transform: translate3d(0, 0, 0.1px);
+    }
+
+    #resolve_txt1 {
+        top: 90px;
+        right: 0;
+        //opacity:0;
+        position: absolute;
+    }
+
+    #resolve_txt2a {
+        top: 0;
+        right: 0;
+        opacity:0;
+        position: absolute;
+        clip: rect(0px, 67px, 90px, 0px);
+    }
+
+    #resolve_txt2b {
+        top: 0;
+        right: 0;
+        opacity:0;
+        position: absolute;
+        clip: rect(0px, 165px, 90px, 67px);
+    }
+
+    #resolve_txt2c {
+        top: 0;
+        right: 0;
+        opacity:0;
+        position: absolute;
+        clip: rect(0px, 407px, 90px, 165px);
+    }
+
+    #cta {
+        width: 100px;
+        height: 32px;
+        right: 20px;
+        top: 38px;
+        background-color: rgba(0, 32, 92, 1);
+        opacity:0;
+        position: absolute;
+    }
+
+    #table {
+        width: $banner-width;
+        height: $banner-height;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        position: absolute;
+
+
+        #lid {
+            top: -175px;
+            left: 150px;
+            position: absolute;
+            transform: translate3d(0, 0, 0.1px);
+        }
+
+        //#food {
+        //    top: 75px;
+        //    left: -145px;
+        //    position: absolute;
+        //    transform: translate3d(0, 0, 0.1px);
+        //}
+
+        #marble {
+            position: absolute;
+            transform: translate3d(0, 0, 0.1px);
+        }
+    }
+
+
+
+    #button-exit {
+        background-color: rgba(255, 255, 255, 0);
+        cursor: pointer;
+        height: 100%;
+        left: 0px;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+    }
+
+    #border {
+        border: 1px solid #ccc;
+        display: block;
+        width: $banner-width - 2;
+        height: $banner-height - 2;
+        left: 0;
+        top: 0;
+        pointer-events: none;
+        position: absolute;
+        z-index: 999;
+    }
+
+
+}
