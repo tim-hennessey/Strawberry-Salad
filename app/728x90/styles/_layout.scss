@@ -45,14 +45,14 @@ body {
     }
 
     #resolve_bg {
-        top:  90px;
+        top:  -90px;
         left: 0;
         position: absolute;
         transform: translate3d(0, 0, 0.1px);
     }
 
     #resolve_txt1 {
-        top: 90px;
+        top: -90px;
         right: 0;
         //opacity:0;
         position: absolute;

@@ -50,9 +50,9 @@ app.Animation = (function () {
         tl2.from(txt2, .5, {opacity: 0}, "+=4")
             .to(txt2, .5, {opacity: 0}, "+=2")
 
-            .to(table, 1, {y:"-=90", ease: Cubic.easeInOut})
-            .to(resolve_txt1, 1, {y:"-=90", ease: Cubic.easeInOut}, "-=1")
-            .to(resolve_bg, 1, {y:"-=90", ease: Cubic.easeInOut}, "-=1")
+            .to(table, 1, {y:"+=90", ease: Cubic.easeInOut})
+            .to(resolve_txt1, 1, {y:"+=90", ease: Cubic.easeInOut}, "-=1")
+            .to(resolve_bg, 1, {y:"+=90", ease: Cubic.easeInOut}, "-=1")
 
             .to(resolve_txt1, .2, {opacity:0}, "+=2")
             .to(logo, .2, {opacity:1})
